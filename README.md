@@ -1,3 +1,9 @@
+# THIS PROJECT HAS BEEN MODIFIED TO INCLUDE TEXT DECORATION LINE OPTIONS FOR THE AUTOWIDTHLABEL COMPONENT
+This control must be built as a Solution independently from other PowerCAT components and imported as a seperate solution.
+To build the component follow [this Microsoft Learn Article](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#packaging-your-code-components) to create a solution using the AutoLabelWidth2 folder. Take note of the [Prerequisites](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#prerequisites) at the beginning of he article. 
+
+To set Text decoration options simply enter the CSS string as you would in the CSS text-decoration-line property e.g. TextDecorationLine:"line-through overline underline"
+
 # Power CAT code components
 
 The Power CAT code components are a set of Power Apps component framework (PCF) controls that can be used to enhance power apps.
