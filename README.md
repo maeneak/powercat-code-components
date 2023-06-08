@@ -2,6 +2,8 @@
 This control must be built as a Solution independently from other PowerCAT components and imported as a seperate solution.
 To build the component follow [this Microsoft Learn Article](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#packaging-your-code-components) to create a solution using the AutoLabelWidth2 folder. Take note of the [Prerequisites](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#prerequisites) at the beginning of the article. 
 
+Alternatively you can push the component directly to you environment using node and PowerApps CLI. From the AutoLabelWidth2 folder run 'npm install' then follow the instructions [below](https://github.com/maeneak/powercat-code-components/blob/main/README.md#deploying-to-your-environment-as-an-unmanaged-component).
+
 To set Text decoration options simply enter the CSS string as you would in the CSS text-decoration-line property e.g. TextDecorationLine:"line-through overline underline"
 
 # Power CAT code components
