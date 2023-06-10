@@ -6,7 +6,7 @@
     Model-driven Apps: -
     Portals: -
   -->
-  <control namespace="PowerCAT" constructor="AutoWidthLabel2" version="0.0.2" display-name-key="AutoWidthLabel2" description-key="AutoWidthLabel_Desc" control-type="standard">
+  <control namespace="PowerCAT" constructor="AutoWidthLabel2" version="1.0.1" display-name-key="AutoWidthLabel2" description-key="AutoWidthLabel_Desc" control-type="standard">
     <property name="Text" display-name-key="Text" description-key="Text" of-type="SingleLine.Text" usage="bound" required="true" default-value="Text" />
     
     <!-- Font Properties -->
@@ -18,7 +18,10 @@
     </property>
     <property name="FontColor" display-name-key="FontColor" of-type="SingleLine.Text" usage="input" />
     <property name="FontWeight" display-name-key="FontWeight" of-type="SingleLine.Text" usage="input" />
-    <property name="TextDecorationLine" display-name-key="TextDecorationLine" of-type="SingleLine.Text" usage="input"  default-value="none"/>
+    <property name="TextDecorationLine" display-name-key="TextDecorationLine" of-type="SingleLine.Text" usage="input"  default-value=""/>
+    <property name="TextDecorationColor" display-name-key="TextDecorationColor" of-type="SingleLine.Text" usage="input"  default-value=""/>
+    <property name="TextDecorationStyle" display-name-key="TextDecorationStyle" of-type="SingleLine.Text" usage="input"  default-value=""/>
+    <property name="TextDecorationThichness" display-name-key="TextDecorationThichness" of-type="SingleLine.Text" usage="input"  default-value=""/>
     <property name="DisabledFontColor" display-name-key="DisabledFontColor" of-type="SingleLine.Text" usage="input" />
     <property name="DisabledFontWeight" display-name-key="DisabledFontWeight" of-type="SingleLine.Text" usage="input" />
     <property name="FocusFontColor" display-name-key="FocusFontColor" of-type="SingleLine.Text" usage="input" />

@@ -6,8 +6,17 @@ export function setFontStyles(element: HTMLElement, newStyles: IInputs): void {
   const fontFamily = newStyles.FontName.raw ?? "";
   if (element.style.fontFamily !== fontFamily) element.style.fontFamily = fontFamily;
 
-  const textDecorationLine = newStyles.TextDecorationLine.raw ?? "none";
+  const textDecorationLine = newStyles.TextDecorationLine.raw ?? "";
   if (element.style.textDecorationLine !== textDecorationLine) element.style.textDecorationLine = textDecorationLine;
+
+  const textDecorationColor = newStyles.TextDecorationColor.raw ?? "";
+  if (element.style.textDecorationColor !== textDecorationColor) element.style.textDecorationColor = textDecorationColor;
+
+  const textDecorationStyle = newStyles.TextDecorationStyle.raw ?? "";
+  if (element.style.textDecorationStyle !== textDecorationStyle) element.style.textDecorationStyle = textDecorationStyle;
+
+  const textDecorationThichness = newStyles.TextDecorationThichness.raw ?? "";
+  if (element.style.textDecorationThickness !== textDecorationThichness) element.style.textDecorationThickness = textDecorationThichness;
 
   const fontSize =
     newStyles.FontSizeUnits.raw === FontSizeUnits.Pt

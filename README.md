@@ -2,7 +2,13 @@
 This control must be built as a Solution independently from other PowerCAT components and imported as a seperate solution.
 To build the component follow [this Microsoft Learn Article](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#packaging-your-code-components) to create a solution using the AutoLabelWidth2 folder. Take note of the [Prerequisites](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before#prerequisites) at the beginning of the article. 
 
-To set Text decoration options simply enter the CSS string as you would in the CSS text-decoration-line property e.g. TextDecorationLine:"line-through overline underline"
+To set Text decoration options simply enter the CSS string as you would in the CSS text-decoration-line, text-decoration-style, text-decoration-color and text-decoration-thickness (supports pixels or auto only) properties 
+
+Example
+TextDecorationLine:"line-through overline underline" //Default "none"
+TextDecorationColor: Color.Red or "red" //Default currentColor
+TextDecorationStyle: "wavy" //Default "solid"
+TextDecorationWidth: "5px" //Default "auto"
 
 # Power CAT code components
 

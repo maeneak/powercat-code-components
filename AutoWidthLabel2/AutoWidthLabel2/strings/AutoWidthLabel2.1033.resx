@@ -118,7 +118,7 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
     <data name="AutoWidthLabel2" xml:space="preserve">
-        <value>Auto Width Label2 (%VERSION%)</value>
+        <value>Auto Width Label2 (v0.0.3)</value>
         <comment/>
     </data>
     <data name="AutoWidthLabel_Desc" xml:space="preserve">
@@ -143,6 +143,18 @@
     </data>   
      <data name="TextDecorationLine" xml:space="preserve">
         <value>CSS Text-decoration-line Value</value>
+        <comment/>
+    </data>
+     <data name="TextDecorationColor" xml:space="preserve">
+        <value>CSS Text-decoration-color Value</value>
+        <comment/>
+    </data>
+     <data name="TextDecorationStyle" xml:space="preserve">
+        <value>CSS Text-decoration-style Value</value>
+        <comment/>
+    </data>
+     <data name="TextDecorationThickness" xml:space="preserve">
+        <value>CSS Text-decoration-thickness Value</value>
         <comment/>
     </data>
     <data name="FontColor" xml:space="preserve">
