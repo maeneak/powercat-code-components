@@ -142,19 +142,19 @@
         <comment/>
     </data>   
      <data name="TextDecorationLine" xml:space="preserve">
-        <value>CSS Text-decoration-line Value</value>
+        <value>Text decoration line</value>
         <comment/>
     </data>
      <data name="TextDecorationColor" xml:space="preserve">
-        <value>CSS Text-decoration-color Value</value>
+        <value>Text decoration color</value>
         <comment/>
     </data>
      <data name="TextDecorationStyle" xml:space="preserve">
-        <value>CSS Text-decoration-style Value</value>
+        <value>Text decoration style</value>
         <comment/>
     </data>
      <data name="TextDecorationThickness" xml:space="preserve">
-        <value>CSS Text-decoration-thickness Value</value>
+        <value>Text decoration thickness</value>
         <comment/>
     </data>
     <data name="FontColor" xml:space="preserve">

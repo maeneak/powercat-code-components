@@ -6,7 +6,7 @@
     Model-driven Apps: -
     Portals: -
   -->
-  <control namespace="PowerCAT" constructor="AutoWidthLabel2" version="1.0.1" display-name-key="AutoWidthLabel2" description-key="AutoWidthLabel_Desc" control-type="standard">
+  <control namespace="PowerCAT" constructor="AutoWidthLabel2" version="1.0.2" display-name-key="AutoWidthLabel2" description-key="AutoWidthLabel_Desc" control-type="standard">
     <property name="Text" display-name-key="Text" description-key="Text" of-type="SingleLine.Text" usage="bound" required="true" default-value="Text" />
     
     <!-- Font Properties -->
